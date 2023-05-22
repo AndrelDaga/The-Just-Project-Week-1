@@ -7,14 +7,6 @@ body{
     font-size: 16px;
 }
 
- .btn{
-    background-color: #1059ec;
-    color: white;
-    padding: 2% 3%;
-    border-radius: 50%;
-
-}
-
 main{
     margin-left: 30%;
     margin-right: 30%;
@@ -29,6 +21,8 @@ main#about{
 hr{
     margin-left: 7%;
     margin-right: 7%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     color: gainsboro;
 }
 
@@ -50,17 +44,17 @@ button{
     background-color:#1976d2;
     font-size: 14px;
     border:0;
-    cursor:pointer;
+    cursor: pointer;
   }
 
 p{
-    margin: 3px;
+    margin: 1%;
 }
 
 h1{
-    margin: 0px;
+    margin: 0;
 }
 
 h2{
-    margin: 0px;
+    margin: 0;
 }
