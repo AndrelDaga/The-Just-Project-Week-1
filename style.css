@@ -1,5 +1,7 @@
 *{
     font-family: 'Merienda', cursive;
+    margin: 0;
+    padding: 0;
 }
 
 body{
@@ -58,3 +60,81 @@ h1{
 h2{
     margin: 0;
 }
+
+/*Form styling*/
+#form-wrapper{
+    padding: 5%;
+    width: 40%;
+    /* border: 3px solid blue; */
+    text-align: left;
+    margin: auto auto;
+    box-shadow: grey;
+
+}
+
+#form-block{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid blue; */
+
+}
+
+input, select{
+    
+    width: 50%;
+    background-color: #fff;
+    border: 1px solid #828282;
+    font-family: 'Manrope', sans-serif;
+    /* border: 1px solid green; */
+    height: 100%;
+}
+/* input{
+    padding-left: 2%;
+} */
+
+.form-heading, label{
+    font-family: 'Halant', serif;
+}
+
+.form-row{
+    margin: 2% 0;
+    padding-right: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+}
+
+.radio-check{
+    display: flex;
+    flex-direction: row;
+}
+
+.checkboxes{
+    display: flex;
+    width: 50%;
+}
+
+.radio-check-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#form-btn{
+    margin-left: auto;
+    width: 50%;
+    border-radius: 3%;
+    font-family: 'Manrope', sans-serif;
+    background: #155EEF;
+    ;
+}
+.label-check{
+    font-size: medium;
+    /* border: 1px solid red; */
+    flex-shrink: unset;
+}
+
+/* .j{
+    margin-right: 5%;
+} */

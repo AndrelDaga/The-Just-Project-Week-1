@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Halant:wght@500&family=Manrope&family=Merienda:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+
+<body>
+
+    <div id="form-wrapper">
+        <h2 class="form-heading">Contact Form</h2>
+        <form action="" id="form-block">
+            <div class="form-row">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter your Name">
+            </div>
+            <div class="form-row">
+                <label for="name">Username:</label>
+                <input type="text" name="username" id="username" placeholder="Enter your username">
+            </div>
+
+            <div class="form-row">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" placeholder="Enter your password">
+            </div>
+
+            <div class="form-row">
+                <label for="password2">Re-type Password:</label>
+                <input type="password" name="password2" id="password2" placeholder="Enter your password">
+            </div>
+
+            <div class="form-row">
+                <label for="gender">Gender:</label>
+                <div class="checkboxes">
+                    <div class="radio-check">
+                        <input type="radio" name="male" id="male">
+                        <label for="male" class="label-check">Male</label>
+                    </div>
+
+                    <div class="radio-check">
+                        <input type="radio" name="male" id="female">
+                        <label for="female" class="label-check">Female</label>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--checkboxes-->
+            <div class="form-row">
+                <label for="skills">Techie Skills:</label>
+                <div class="radio-check-container">
+                    <div class="radio-check">
+                        <input type="checkbox" name="html" id="html">
+                        <label class="label-check" for="html">HTML</label>
+                    </div>
+    
+                    <div class="radio-check">
+                        <input type="checkbox" name="css" id="css">
+                        <label class="label-check" for="css">CSS</label>
+                    </div>
+    
+                    <div class="radio-check">
+                        <input type="checkbox" name="js" id="js">
+                        <label class="label-check" for="js">JavaScript</label>
+                    </div>
+                </div>
+               
+
+            </div>
+
+
+            <!--after checkboxes-->
+            <div class="form-row">
+                <label for="phone">Phone Number:</label>
+                <input type="text" name="phone" id="phone" placeholder="Enter your address">
+            </div>
+
+            <div class="form-row">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Enter your Email address">
+            </div>
+
+            <div class="form-row">
+                <label for="college">College:</label>
+                <select name="college" id="college" placeholder="Select a College">
+                    <option value="">College of Design</option>
+                    <option value="">College of Web Development</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <button id="form-btn">Submit</button>
+            </div>
+            
+
+        </form>
+    </div>
+</body>
+
+</html>
